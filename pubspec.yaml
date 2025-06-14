@@ -1,0 +1,29 @@
+
+name: jacktrack
+description: A golf ball tracking app (JackTrack)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.5
+  cloud_firestore: ^4.5.0
+  provider: ^6.0.5
+  flutter_reactive_ble: ^5.0.2
+  geolocator: ^10.0.0
+  permission_handler: ^10.4.0
+  mapbox_gl: ^0.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
